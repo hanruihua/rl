@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-02-26T06:57:46.922410+00:00",
+  "last_updated": "2026-02-26T19:01:50.713659+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
       "total_workflow_runs": 84,
-      "total_success": 63,
+      "total_success": 62,
       "total_failure": 3,
-      "success_rate": 75.0
+      "success_rate": 73.8
     },
     "last_30_days": {
       "days": 18,
       "runs_with_data": 11,
       "total_workflow_runs": 132,
-      "total_success": 99,
+      "total_success": 98,
       "total_failure": 5,
-      "success_rate": 75.0
+      "success_rate": 74.2
     }
   },
   "history": [
     {
       "date": "2026-02-26",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/hanruihua/rl/actions/runs/22431370864",
       "orchestrator_run_id": 22431370864,
       "workflows": {
@@ -87,8 +87,8 @@
           "display_name": "Benchmarks"
         },
         "validate-test-partitioning.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/hanruihua/rl/actions/runs/22431370864/job/64950814401",
           "display_name": "Test Partitioning"
         },
@@ -125,11 +125,11 @@
       },
       "summary": {
         "total": 16,
-        "success": 9,
+        "success": 8,
         "failure": 0,
         "skipped": 4,
-        "other": 3,
-        "success_rate": 75.0
+        "other": 4,
+        "success_rate": 66.7
       }
     },
     {
