@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T06:43:35.476878+00:00",
+  "last_updated": "2026-03-04T19:00:27.921215+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-03-04",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/hanruihua/rl/actions/runs/22658250223",
       "orchestrator_run_id": 22658250223,
       "workflows": {
