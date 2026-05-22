@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-05-21T20:01:53.051698+00:00",
+  "last_updated": "2026-05-22T08:57:16.490968+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
       "total_workflow_runs": 84,
       "total_success": 63,
-      "total_failure": 4,
+      "total_failure": 3,
       "success_rate": 75.0
     },
     "last_30_days": {
@@ -19,6 +19,119 @@
     }
   },
   "history": [
+    {
+      "date": "2026-05-22",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/hanruihua/rl/actions/runs/26278381693",
+      "orchestrator_run_id": 26278381693,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348175093",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348174109",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348174129",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173436",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173479",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348174151",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173580",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173617",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173627",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173589",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173715",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173917",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173843",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173838",
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173876",
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "cancelled",
+          "conclusion": "cancelled",
+          "url": "https://github.com/hanruihua/rl/actions/runs/26278381693/job/77348173836",
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 16,
+        "success": 9,
+        "failure": 0,
+        "skipped": 4,
+        "other": 3,
+        "success_rate": 75.0
+      }
+    },
     {
       "date": "2026-05-21",
       "orchestrator_ran": true,
@@ -9974,119 +10087,6 @@
         "failure": 1,
         "skipped": 4,
         "other": 2,
-        "success_rate": 75.0
-      }
-    },
-    {
-      "date": "2026-02-21",
-      "orchestrator_ran": true,
-      "orchestrator_status": "queued",
-      "orchestrator_url": "https://github.com/hanruihua/rl/actions/runs/22252110082",
-      "orchestrator_run_id": 22252110082,
-      "workflows": {
-        "test-linux.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450565",
-          "display_name": "Linux Tests"
-        },
-        "test-linux-llm.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450323",
-          "display_name": "LLM Tests"
-        },
-        "test-linux-habitat.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450384",
-          "display_name": "Habitat Tests"
-        },
-        "test-linux-tutorials.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450261",
-          "display_name": "Tutorials Tests"
-        },
-        "test-linux-sota.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450258",
-          "display_name": "SOTA Tests"
-        },
-        "test-linux-libs.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450422",
-          "display_name": "Libs Tests"
-        },
-        "test-windows-optdepts.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450282",
-          "display_name": "Windows Tests"
-        },
-        "lint.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450293",
-          "display_name": "Lint"
-        },
-        "docs.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450302",
-          "display_name": "Documentation"
-        },
-        "benchmarks.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450289",
-          "display_name": "Benchmarks"
-        },
-        "validate-test-partitioning.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450259",
-          "display_name": "Test Partitioning"
-        },
-        "nightly_build.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450352",
-          "display_name": "Nightly Build"
-        },
-        "build-wheels-linux.yml": {
-          "status": "cancelled",
-          "conclusion": "cancelled",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450321",
-          "display_name": "Wheels (Linux)"
-        },
-        "build-wheels-m1.yml": {
-          "status": "cancelled",
-          "conclusion": "cancelled",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450316",
-          "display_name": "Wheels (M1)"
-        },
-        "build-wheels-windows.yml": {
-          "status": "cancelled",
-          "conclusion": "cancelled",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450320",
-          "display_name": "Wheels (Windows)"
-        },
-        "build-wheels-aarch64-linux.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/hanruihua/rl/actions/runs/22252110082/job/64377450314",
-          "display_name": "Wheels (Aarch64)"
-        }
-      },
-      "summary": {
-        "total": 16,
-        "success": 9,
-        "failure": 0,
-        "skipped": 4,
-        "other": 3,
         "success_rate": 75.0
       }
     }
