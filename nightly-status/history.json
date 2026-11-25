@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T03:54:14.086787+00:00",
+  "last_updated": "2026-11-25T02:07:36.451210+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -11,7 +11,7 @@
     },
     "last_30_days": {
       "days": 30,
-      "runs_with_data": 26,
+      "runs_with_data": 25,
       "total_workflow_runs": 0,
       "total_success": 0,
       "total_failure": 0,
@@ -19,6 +19,20 @@
     }
   },
   "history": [
+    {
+      "date": "2026-11-25",
+      "orchestrator_ran": false,
+      "orchestrator_status": "not_run",
+      "orchestrator_url": null,
+      "workflows": {},
+      "summary": {
+        "total": 0,
+        "success": 0,
+        "failure": 0,
+        "skipped": 0,
+        "success_rate": null
+      }
+    },
     {
       "date": "2026-11-24",
       "orchestrator_ran": false,
@@ -9371,20 +9385,6 @@
     },
     {
       "date": "2026-08-28",
-      "orchestrator_ran": false,
-      "orchestrator_status": "not_run",
-      "orchestrator_url": null,
-      "workflows": {},
-      "summary": {
-        "total": 0,
-        "success": 0,
-        "failure": 0,
-        "skipped": 0,
-        "success_rate": null
-      }
-    },
-    {
-      "date": "2026-08-27",
       "orchestrator_ran": false,
       "orchestrator_status": "not_run",
       "orchestrator_url": null,
